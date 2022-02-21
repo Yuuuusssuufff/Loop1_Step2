@@ -1,0 +1,96 @@
+*,
+*:before,
+*,
+*:after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: aquamarine;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 100px; */
+}
+
+.container1 {
+    background-color: white;
+    border-radius: 8px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 40vh;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.heading {
+    margin-top: 30px;
+    /* margin-bottom: 50px; */
+    height: 150px;
+}
+
+.container2 {
+    display: grid;
+    grid-template-rows: 75px 75px 75px 75px;
+    /* grid-gap: 2px; */
+    /* border: solid;
+    border-color: white; */
+    background-color: white;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    /* border: solid;
+    justify-content: center; */
+    column-gap: 50px;
+    width: 100%;
+    /* text-align: center; */
+    padding: 20px;
+    font-size: 22px;
+}
+
+.master {
+    display: flex;
+    column-gap: 120px;
+}
+
+.container2>div {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.container2 img {
+    width: 50px;
+    height: 30px;
+}
+
+.btn {
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.radio {
+    display: flex;
+    justify-content: center;
+}
